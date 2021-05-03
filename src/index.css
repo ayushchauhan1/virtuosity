@@ -196,10 +196,10 @@ width: 200px;
 }
 
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 1024px) {
   .logo2{
-    padding-top: 150px;
-    height: 400px;
+    padding-top: 200px;
+    height: 500px;
     text-align: center;
    }
    .block1text{
@@ -242,8 +242,8 @@ width: 200px;
     padding-bottom: 30px;
   }
   .why{
-    padding-top: 50px;
-    height: 400px;
+    padding-top: 70px;
+    height: 300px;
   }
   .block4{
     background-color:#1A1C20 ;
@@ -259,8 +259,8 @@ width: 200px;
     padding-bottom: 30px;
   }
   .whyvirtuosityText{
-    font-size: large;
-    padding: 50px 250px;
+    font-size: medium;
+    padding: 100px 50px;
     text-align: justify;
     color: #CF7500;
     text-decoration: #CF7500;
@@ -344,6 +344,9 @@ width: 200px;
     color: #CF7500;
     text-decoration: #CF7500;
   }
-  
+  .carousel-control-prev,
+.carousel-control-next{
+      bottom:-85%;
+}
   
 }
