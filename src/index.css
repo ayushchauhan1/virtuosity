@@ -17,7 +17,7 @@ code {
   background-color: #F0A500;
   display: flex;
   flex-wrap: nowrap;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .logo {
   padding: 5px;
@@ -54,12 +54,12 @@ width: 200px;
   margin-left: 100px;
 
 }
-a.middle
+.middle
 {
     position: relative;
 }
 
-a.middle:before {
+.middle:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -72,8 +72,171 @@ a.middle:before {
   transition: all 0.3s ease-in-out;
   color: #1A1C20;
 }
-a.middle:hover:before {
+.middle:hover:before {
   visibility: visible;
   transform: scaleX(1);
   color: #1A1C20;
+}
+
+
+.block1{
+  height: 650px;
+  background-color: #1A1C20;
+  width: 100%;
+  box-shadow: -8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner img {
+  width: 350px;
+  height: 200px;
+}
+.block3{
+  background-color: #1A1C20;
+  height: 400px;
+  width: 100%;
+}
+.block4{
+  background-color:#1A1C20 ;
+  height: 450px;
+  width: 300px;
+  margin-top: 125px;
+  border-radius: 30px;
+  
+}
+
+.services:hover {
+  color:#CF7500;
+}
+
+/* */
+@media screen and (max-width: 1920px) {
+  .logo2{
+   padding-top: 250px;
+  padding-left: 85px;
+   height: 650px;
+  }
+  .block1text{
+    font-size: 14;
+    text-align: justify;
+    color: #CF7500;
+    padding: 30px 20px 10px;
+  }
+  .ourservicestext {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #CF7500;
+  }
+  .services{
+    font-size: 20px;
+  }
+  .block2{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: large;
+  }
+  .serviceImg{
+    padding-top: 100px;
+   
+    height: 500px;
+  }
+  .block3{
+    background-color: #1A1C20;
+    height: 400px;
+    width: 100%;
+  }
+  .someclientstext{
+    padding-top: 30px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: #CF7500;
+    text-decoration: #CF7500;
+    padding-bottom: 30px;
+  }
+}
+
+
+@media screen and (max-width: 765px) {
+  .logo2{
+    padding-top: 150px;
+    height: 400px;
+    text-align: center;
+   }
+   .block1text{
+    font-size: 15px;
+    text-align: justify;
+    color: #CF7500;
+    padding: 30px 20px 10px;
+  }
+  .ourservicestext {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #CF7500;
+
+  }
+  .services{
+    font-size: 15px;
+  }
+  .block2{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  .serviceImg{
+    padding-top: 100px;
+    height: 350px;
+  }
+  .block3{
+    background-color: #1A1C20;
+    height: 400px;
+    width: 100%;
+  }
+  .someclientstext{
+    padding-top: 30px;
+    color: #CF7500;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo2{
+    padding-top: 100px;
+    height: 300px;
+    text-align: center;
+   }
+
+   .block1text {
+    font-size: 13px;
+    text-align: justify;
+    color: #CF7500;
+    padding: 30px 10px 10px;
+  }
+  .ourservicestext {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #CF7500;
+  }
+  .services{
+    font-size: 16px;
+  }
+  .block2{
+  
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  .serviceImg{
+    padding-top: 50px;
+    height: 300px;
+    margin: 0px;
+  }
+  .block3{
+    background-color: #1A1C20;
+    height: 250px;
+    width: 100%;
+  }
+  .someclientstext{
+    padding-top: 30px;
+    color: #CF7500;
+  }
 }
