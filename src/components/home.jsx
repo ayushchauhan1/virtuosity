@@ -7,14 +7,13 @@ import ultratech from '../assets/ultratech.png';
 import ireda from '../assets/ireda.png';
 import jmc from '../assets/jmc.png';
 import why from '../assets/whyvirtuosity.png';
-import useMediaQuery from "./useMediaQuery";
+
 
 
  
 
 const Home = () => {
-  const matches = useMediaQuery("(min-width: 600px)");
-  const imgSize = matches ? '10%' : '10%';
+ 
  
     return (
         <div>
@@ -102,8 +101,8 @@ const Home = () => {
   </div>
 
 
-  <a className="carousel-control-prev" href="#demo" data-slide="prev" style={{color:'black'}}>
-    <span className="carousel-control-prev-icon" ></span>
+  <a className="carousel-control-prev" href="#demo" data-slide="prev" >
+    <span className="carousel-control-prev-icon "  ></span>
   </a>
   <a className="carousel-control-next" href="#demo" data-slide="next">
     <span className="carousel-control-next-icon"></span>
