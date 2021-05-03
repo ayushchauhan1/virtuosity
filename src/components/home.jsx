@@ -9,14 +9,13 @@ import jmc from '../assets/jmc.png';
 import why from '../assets/whyvirtuosity.png';
 import useMediaQuery from "./useMediaQuery";
 
-function Example () {
-  const matches = useMediaQuery("(min-width: 600px)");
-  const imgSize = matches ? '100%' : '80%';
-  return imgSize;
-  }
+
+ 
 
 const Home = () => {
-     const image = Example();
+  const matches = useMediaQuery("(min-width: 600px)");
+  const imgSize = matches ? '10%' : '10%';
+ 
     return (
         <div>
             <div className='container-fluid'>
@@ -85,19 +84,20 @@ const Home = () => {
 
   <div className="carousel-inner text-center " >
     <div className="carousel-item active">
-      <img src={ansal} height={image}></img>
+      <img  src={ansal} ></img>
+      
     </div>
     <div className="carousel-item">
-      <img src={bikanervala} height={image} ></img>
+      <img    src={bikanervala}  ></img>
     </div>
     <div className="carousel-item">
-      <img src={ultratech} height={image}></img>
+      <img  src={ultratech}  ></img>
     </div>
     <div className="carousel-item">
-      <img src={ireda} height={image}></img>
+      <img  src={ireda}  ></img>
     </div>
     <div className="carousel-item">
-      <img src={jmc} height={image}></img>
+      <img   src={jmc}  ></img>
     </div>
   </div>
 
@@ -112,11 +112,13 @@ const Home = () => {
 </div>
 <div className='container-fluid'>
 <div className='row'>
-    <div className='col-lg-6 col-md-6 col-sm-12 pt-5 text-center' >
-        <h1>Why Virtuosity?</h1>
-        <img src={why} style={{paddingTop:'50px',height:'500px'}}></img>
+    <div className='col-lg-6 col-md-6 col-sm-12 pt-5 text-center why' >
+        <div className='whyvirtuosityHeading'>Why Virtuosity?</div>
+        <img src={why} height='100%'></img>
     </div>
-    <div className='col-lg-6 col-md-6 col-sm-12 block4'></div>
+    <div className='col-lg-6 col-md-6 col-sm-12 block4'>
+      <div className='whyvirtuosityText'>At Virtuosity Financial Services, some of the best brains in their respective domains have come together for you. They are pooling in a cumulative experience of 170 + years to offer value-added services to businesses and provide customised solutions by leveraging the most invaluable insights across their rich and diverse career.</div>
+    </div>
 </div>
 </div>
         </div>
