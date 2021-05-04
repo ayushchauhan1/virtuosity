@@ -350,3 +350,76 @@ width: 200px;
 }
   
 }
+/******************************************* OUR BOARD PAGE ********************************************/ 
+
+#ob{
+  font-size: 50px;
+ 
+}
+
+#obcol{
+  text-align: center;
+  font-family: Lato;
+  Color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 550;
+  font-size: xx-large;
+  
+}
+.upper{
+  background-color: #1a1c20da;
+  margin-top: 10px;
+}
+.truncated{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  cursor: pointer;
+  -webkit-box-orient: vertical;
+}
+.modalhdr{
+  background-color: #F0A500;
+  color: white;
+  font-family: Lato;
+}
+.modalbdy{
+  font-family: Lato;
+  color: #1A1C20;
+  margin: 20px;
+  text-align: justify;
+}
+.crdimg{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 30px;
+}
+.crdcol{
+  padding-top: 50px;
+  
+}
+.crd {
+  font-family: Lato;
+  text-align: justify;
+  background-color: #1a1c20bd;
+  color: white;
+  padding-top: 10px;
+  
+}
+/* Contact Us*/
+.title-1{
+  color: #CF7500;
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.07em;
+margin-top: 40px;
+}
+.brands{
+  margin: 12px;
+  padding: 30px;
+}
