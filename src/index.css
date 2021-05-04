@@ -77,7 +77,6 @@ a.middle:hover:before {
   transform: scaleX(1);
   color: #1A1C20;
 }
-
 /******************************************* OUR BOARD PAGE ********************************************/ 
 
 #ob{
@@ -135,4 +134,19 @@ a.middle:hover:before {
   color: white;
   padding-top: 10px;
   
+}
+/* Contact Us*/
+.title-1{
+  color: #CF7500;
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.07em;
+margin-top: 40px;
+}
+.brands{
+  margin: 12px;
+  padding: 30px;
 }

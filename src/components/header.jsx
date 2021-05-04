@@ -8,12 +8,11 @@ const header = () => {
                 
                 
                <div><img  className='logo' src={logo}></img></div>
-               
-                <div class="Nav-Home"><a href="/" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Home</a></div>
-                <div class="Nav-about"><a href="/aboutus" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>About us</a></div>
-                <div class="Nav-ourboard"><a href="/ourboard" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Our Board</a></div>
-                <div class="Nav-services"><a href="/services" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Services</a></div>
-                <div class="Nav-contact"><a href="/contactus" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Contact</a></div>
+                <div className="Nav-Home"><a href="/" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Home</a></div>
+                <div className="Nav-about"><a href="/aboutus" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>About us</a></div>
+                <div className="Nav-ourboard"><a href="/ourboard" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>ourBoard</a></div>
+                <div className="Nav-services"><a href="/services" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Services</a></div>
+                <div className="Nav-contact"><a href="/contactus" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Contact</a></div>
                
             
         </div>
