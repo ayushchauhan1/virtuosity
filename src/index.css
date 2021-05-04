@@ -11,11 +11,215 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* BUTTON */
+.th-btn-primary {
+  color: #ffffff;
+  background: #F0A500;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.th-btn-primary-gradient {
+  color: #ffffff;
+  /* background: linear-gradient(280.54deg, #F0A500 0%, #313f74 100%); */
+  background: #F0A500;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.th-btn-primary-gradient:hover {
+  /* background: linear-gradient(190deg, #F0A500 0%, #313f74 100%); */
+  background: #F0A500;
+}
+.th-btn-secondary {
+  color: #ffffff;
+  background: #ea8b1b;
+  border-radius: 0.25rem;
+  border: none;
+}
+.th-btn-primary-outline {
+  color: #F0A500;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  border: 1px solid #F0A500;
+  transition-duration: 150px;
+}
+
+.th-btn-primary-outline:hover {
+  background: #f0f3ff;
+  transition-duration: 150px;
+}
+
+.th-btn-white {
+  color: #F0A500;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  transition-duration: 150px;
+}
+
+.th-btn-white:hover {
+  background: #f0f3ff;
+  transition-duration: 150px;
+}
+
+.th-btn-primary-on {
+  /* color: #ffffff; */
+  /* background: linear-gradient(280.54deg, #F0A500 0%, #313f74 100%); */
+  color: #F0A500;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.th-btn-primary-off {
+  color: #959595;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.th-btn-primary-ghost {
+  color: #F0A500;
+  background: none;
+  border: none;
+  /* border: 1px solid #ffffff; */
+}
+
+.th-btn-primary-ghost-disable {
+  color: #959595;
+  background: none;
+  border: none;
+  /* border: 1px solid #ffffff; */
+}
+
+.th-btn-white-ghost {
+  font-weight: 500;
+  color: #ffffff;
+  background: none;
+  border: none;
+}
+
+.th-btn-primary-on:focus,
+.th-btn-primary-off:focus,
+.th-btn-primary:focus,
+.th-btn-primary-gradient:focus,
+.th-btn-primary-outline:focus,
+.th-btn-primary-ghost:focus,
+.th-btn-white-ghost:focus,
+.th-btn,
+.th-btn-sc,
+.th-form {
+  outline: none;
+}
+
+.bg-primary{
+  background-color: #F0A500 !important;
+}
+
+/* Header */
+.th-side-drawer-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1500;
+  top: 0;
+  left: 0;
+}
+
+.th-side-drawer {
+  height: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 65%;
+  z-index: 2000;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.th-side-drawer.open {
+  transform: translateX(0%);
+}
+
+/* Link */
+.th-link {
+  color: #000000;
+}
+
+.th-link:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.th-link:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+.th-header-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 45px;
+  background-color: #CF7500;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.th-header-dropdown-content a {
+  color: #fff;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.th-header-dropdown-content a:hover {
+  background-color: #1A1C20;
+  color: #fff;
+}
+
+.th-header-dropdown:hover .th-header-dropdown-content {
+  display: block;
+}
+
+
+.th-header-dropdown-content-submenu {
+  display: none;
+  position: relative;
+  top: 45px;
+  right: 100px;
+  background-color: #CF7500;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.th-header-dropdown-content-submenu a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.th-header-dropdown-content-submenu a:hover {
+  background-color: #ea8b1b;
+  color: #fff;
+}
+
+.th-header-dropdown:hover .th-header-dropdown-content-submenu {
+  display: block;
+}
+
 .header{
   width: 100%;
   height: 60px;
   background-color: #F0A500;
-  display: flex;
+  /* display: flex; */
   flex-wrap: nowrap;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
 }
@@ -27,10 +231,6 @@ width: 200px;
 .Nav-Home{
   margin: 15px;
   margin-left: 300px;
- 
-
- 
-
 }
 .Nav-about{
   margin: 15px;
