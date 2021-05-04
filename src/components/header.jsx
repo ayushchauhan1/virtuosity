@@ -8,7 +8,6 @@ const header = () => {
                 
                 
                <div><img  className='logo' src={logo}></img></div>
-               
                 <div className="Nav-Home"><a href="/" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>Home</a></div>
                 <div className="Nav-about"><a href="/aboutus" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>About us</a></div>
                 <div className="Nav-ourboard"><a href="/ourboard" className="middle"  style={{ textDecoration: 'none' ,color: "#1A1C20" }}>ourBoard</a></div>
