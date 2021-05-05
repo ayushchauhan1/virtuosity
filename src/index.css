@@ -408,7 +408,7 @@ width: 200px;
   padding-top: 10px;
   
 }
-/* Contact Us*/
+/*--------------------------------------------- Contact Us---------------------------------------------*/
 .title-1{
   color: #CF7500;
   font-family: Raleway;
@@ -423,3 +423,103 @@ margin-top: 40px;
   margin: 12px;
   padding: 30px;
 }
+/*---------------------------------------------Contact Us End---------------------------------------------*/
+
+/*-------------------------------------------------Footer-------------------------------------------------*/
+.foot{
+  background-color: #C4C4C4;
+  margin-top: 20px;
+  font-family: Lato;
+
+}
+.about{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.07em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.num{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.07em;
+color: #000000;
+margin-top: 36px;
+}
+.f-links{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.07em;
+color: #000000;
+text-decoration: none;
+}
+.phone-img
+{
+  margin-top: 30px;
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: grayscale(100%); /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .5s ease-in-out;  
+}
+.phone-img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.25);
+}
+.tele{
+  margin-left: 5px;
+}
+.tele-num{
+  margin-top: 33px;
+  margin-left: 4px;
+}
+.mail{
+  margin-bottom: 20px;
+  margin-left: 3px;
+}
+.mail-id{
+  margin-left: 3px;
+  margin-top: 32px;
+}
+.connection{
+  margin-top: 80px;
+}
+.branding{
+  background: rgba(196, 196, 196, 0.6);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  
+  color: #000000;
+}
+.f-links:hover{
+  text-decoration: none;
+  color: #000000;
+}
+.phone-img:hover{
+  transform: scale(1.25);
+}
+.social {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: grayscale(100%); /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .5s ease-in-out;  
+  }
+
+  .social:hover:hover {
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.25);
+  }
+/*---------------------------------------Footer CSS ends---------------------------------------*/
