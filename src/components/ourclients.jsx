@@ -18,47 +18,46 @@ const contactus = () => {
       <div className="text-center title-1">SOME OF OUR SATISFIED CLIENTS</div>
       <div className="container">
         <div className="row my-5 align-items-center">
-          <div className="col-md-4 text-center">
-            ''
+          <div className="col-md-4 text-center p-3">
             <img src={IDFC} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={Bikanervala} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={UltraTech} alt="" />
           </div>
         </div>
-        <div className="row my-5 align-items-center">
-          <div className="col-md-4 text-center">
+        <div className="row align-items-center">
+          <div className="col-md-4 text-center p-3">
             <img src={asalapi} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={ireda} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={supertech} alt="" />
           </div>
         </div>
-        <div className="row my-5 align-items-center">
-          <div className="col-md-4 text-center">
+        <div className="row align-items-center">
+          <div className="col-md-4 text-center p-3">
             <img src={ansalhousing} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={jmc} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={mcx} alt="" />
           </div>
         </div>
-        <div className="row my-5 align-items-center">
-          <div className="col-md-4 text-center">
+        <div className="row align-items-center">
+          <div className="col-md-4 text-center p-3">
             <img src={khfoges} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={triveni} alt="" />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center p-3">
             <img src={Sol} alt="" />
           </div>
         </div>
