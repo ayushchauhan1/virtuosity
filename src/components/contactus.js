@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { withSnackbar } from "react-simple-snackbar";
-import { Map, GoogleApiWrapper } from 'google-maps-react';
+import MapContainer from './map';
 class Contacts extends Component {
   state = {
     name: "",
@@ -42,10 +42,7 @@ class Contacts extends Component {
     }
   };
   render() {
-    const  mapStyles = {
-      width: '100%',
-      height: '100%',
-    };
+    
     return (
       <div >
         <div className='row'>
@@ -75,12 +72,7 @@ class Contacts extends Component {
              <button type="button" class="btn btn-dark  butt" onClick={this.handleSubmit}>Submit</button>
           </div>
            <div className='col-lg-6 col-md-6 col-sm-12 block5'>
-           <Map
-          google={this.props.google}
-          zoom={8}
-          style={mapStyles}
-          initialCenter={{ lat: 47.444, lng: -122.176}}
-        />
+           <MapContainer></MapContainer>
            </div>
         </div>
       </div>
