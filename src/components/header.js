@@ -74,6 +74,7 @@ class Header extends Component {
                           <Link to="/non_core_process_outsourching">Non Core Process Outsourching</Link>
                           <Link to="/direct_tax">Direct Tax</Link>
                           <Link to="/litigation_support">Litigation Support</Link>
+                          <Link to="/gst">Goods and Service Tax</Link>
                         </div>
                       </div>
                       <Link
