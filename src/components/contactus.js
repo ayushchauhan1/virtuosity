@@ -29,7 +29,7 @@ class Contacts extends Component {
     } else {
       axios
         .post(
-          "https://v1.nocodeapi.com/dhwajgupta/google_sheets/kjDeLqJzSGXaEdtf",
+          "https://v1.nocodeapi.com/dhwajgupta/google_sheets/kjDeLqJzSGXaEdtf?tabId=Sheet1",
           [arr]
         )
         .then((res) => {
