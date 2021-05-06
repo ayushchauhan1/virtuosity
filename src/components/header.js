@@ -70,6 +70,11 @@ class Header extends Component {
                           <Link to="/">Direct Tax</Link>
                           <Link to="/">Goods and Serivice Tax</Link>
                           <Link to="/business_setup_advisory">Business Setup Advisory</Link>
+                          <Link to="/indirect_tax">Indirect Tax</Link>
+                          <Link to="/non_core_process_outsourching">Non Core Process Outsourching</Link>
+                          <Link to="/direct_tax">Direct Tax</Link>
+                          <Link to="/litigation_support">Litigation Support</Link>
+                          <Link to="/gst">Goods and Service Tax</Link>
                         </div>
                       </div>
                       <Link
