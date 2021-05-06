@@ -747,6 +747,49 @@ text-decoration: none;
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.25);
   }
+
+  /*---------------------------------------Footer CSS ends---------------------------------------*/
+
+
+  /*---------------------------------------Contact Us--------------------------------------------*/
+ .block5{
+   height: 500px;
+   background-color: #1A1C20;
+   width: 100%;
+ }
+ .contactHeading{
+   padding-top: 100px;
+   padding-left: 100px;
+   font-weight:bold;
+   font-size: xx-large;
+ }
+ .contactHeading2{
+  padding-left: 100px;
+  font-weight:700;
+  font-size: large;
+}
+.iput{
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-top: 20px;
+
+}
+.form-control:focus {
+  border-color: #4b4b4b;
+  box-shadow: 0 0 0 0.2rem rgba(63, 63, 62, 0.25);
+} 
+
+input{
+  margin-top: 15px;
+}
+
+.butt {
+  width: 120px;
+ align-content: center;
+ margin-top: 40px;
+ margin-left: 270px;
+
+
 /*---------------------------------------Footer CSS ends---------------------------------------*/
 
 

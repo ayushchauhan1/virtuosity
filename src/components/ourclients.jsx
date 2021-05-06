@@ -12,7 +12,7 @@ import khfoges from "../assets/khfoges.png";
 import triveni from "../assets/triveni.png";
 import Sol from "../assets/Solicitors.png";
 
-const contactus = () => {
+const ourclients = () => {
   return (
     <div className="py-5">
       <div className="text-center title-1">SOME OF OUR SATISFIED CLIENTS</div>
@@ -66,4 +66,4 @@ const contactus = () => {
   );
 };
 
-export default contactus;
+export default ourclients;
