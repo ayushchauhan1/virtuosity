@@ -670,7 +670,8 @@ text-decoration: none;
 }
 .phone-img
 {
-  margin-top: 30px;
+  margin-top: 0px;
+  height: auto;
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: grayscale(100%); /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -696,9 +697,9 @@ text-decoration: none;
   margin-left: 3px;
   margin-top: 32px;
 }
-.connection{
+/* .connection{
   margin-top: 80px;
-}
+} */
 .branding{
   background: rgba(196, 196, 196, 0.6);
   font-family: Lato;
@@ -717,6 +718,23 @@ text-decoration: none;
 .phone-img:hover{
   transform: scale(1.25);
 }
+.th-header {
+  font-size: 18px !important;
+}
+.th-list {
+  list-style-type: none !important;
+}
+.list-item {
+  color: #636363 !important;  
+  font-size: 16px;
+  font-weight: bold;
+}
+.th-phone {
+  font-size: 18px;
+  color: #636363;
+  font-weight: bold;
+}
+
 .social {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
     filter: grayscale(100%); /* IE5+ */
@@ -772,5 +790,27 @@ input{
  margin-left: 270px;
 
 
+/*---------------------------------------Footer CSS ends---------------------------------------*/
 
+
+/* Scroll bar*/
+@media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }

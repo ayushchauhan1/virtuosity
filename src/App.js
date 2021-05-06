@@ -7,26 +7,30 @@ import Services from "./components/services";
 import Contacts from "./components/contactus";
 import Footer from "./components/footer";
 import OurClients from "./components/ourclients";
+import ScrollToTop from "./components/ScrollToTop/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import ScrollToTopI from "./MyHelpComponents/ScrollToTop";
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
-        <Switch>
-          <Route exact={true} path="/" render={() => <Home />} />
-          <Route exact={true} path="/aboutus" render={() => <About />} />
-          <Route exact={true} path="/contactus" render={() => <Contacts />} />
-          <Route exact={true} path="/services" render={() => <Services />} />
-          <Route exact={true} path="/ourboard" render={() => <Ourboard />} />
-          <Route
-            exact={true}
-            path="/ourclients"
-            render={() => <OurClients />}
-          />
-        </Switch>
-        <Footer />
+        <ScrollToTopI>
+          <Header />
+          <Switch>
+            <Route exact={true} path="/" render={() => <Home />} />
+            <Route exact={true} path="/aboutus" render={() => <About />} />
+            <Route exact={true} path="/contactus" render={() => <Contacts />} />
+            <Route exact={true} path="/services" render={() => <Services />} />
+            <Route exact={true} path="/ourboard" render={() => <Ourboard />} />
+            <Route
+              exact={true}
+              path="/ourclients"
+              render={() => <OurClients />}
+            />
+          </Switch>
+          <ScrollToTop />
+          <Footer />
+        </ScrollToTopI>
       </Router>
     </div>
   );
