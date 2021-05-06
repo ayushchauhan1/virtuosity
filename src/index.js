@@ -3,10 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import SnackbarProvider from "react-simple-snackbar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SnackbarProvider>
+      <App />
+    </SnackbarProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
