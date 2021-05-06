@@ -750,7 +750,7 @@ text-decoration: none;
 /*---------------------------------------Footer CSS ends---------------------------------------*/
 /*------------------------------------Business Setup Advisory------------------------------------*/
 .bsa{
-  font-family: Raleway;
+  /* font-family: Raleway; */
 font-style: normal;
 font-weight: 600;
 font-size: 48px;
@@ -765,7 +765,7 @@ width: 500px;
 background-color: #CF7500;
 }
 .content-l{
-  font-family: Lato;
+  /* font-family: Lato; */
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -775,7 +775,7 @@ letter-spacing: 0.07em;
 color: #000000;
 }
 .title-bsa{
-  font-family: Lato;
+  /* font-family: Lato; */
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
