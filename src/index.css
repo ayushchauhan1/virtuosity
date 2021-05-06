@@ -552,24 +552,29 @@ width: 200px;
 }
 /******************************************* OUR BOARD PAGE ********************************************/ 
 
-#ob{
-  font-size: 50px;
- 
+.ob{
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-weight: 550;
+  
 }
 
-#obcol{
+.obcol{
   text-align: center;
   font-family: Lato;
-  Color: white;
-  padding-top: 40px;
+  Color: #5a3629;
+  padding-top: 30px;
   padding-bottom: 20px;
-  font-weight: 550;
-  font-size: xx-large;
+  border-bottom: 0px;
+ 
+  
+ 
   
 }
 .upper{
-  background-color: #1a1c20da;
   margin-top: 10px;
+  background-image: linear-gradient( rgb(230, 213, 184), rgba(230, 213, 184, .08));
+  border-bottom: 0px;
 }
 .truncated{
   overflow: hidden;
@@ -603,11 +608,18 @@ width: 200px;
 .crd {
   font-family: Lato;
   text-align: justify;
-  background-color: #1a1c20bd;
-  color: white;
+  background-color:  #5a3629;
+  color: #e6d5b8;
   padding-top: 10px;
   
 }
+
+.crdcol :hover{
+  box-shadow: 10px 8px 11px rgba(90, 54, 41,.3); 
+}
+
+
+
 /* Contact Us*/
 .title-1{
   color: #CF7500;
@@ -622,4 +634,21 @@ margin-top: 40px;
 .brands{
   margin: 12px;
   padding: 30px;
+}
+
+
+
+/*********************************ABOUT US******************************/
+
+.slide{
+  color: #1A1C20;
+
+}
+
+.carousel-inner img {
+  width: 50%;
+  height: 50%;
+}
+.carousel-caption p {
+ text-align: justify;
 }
