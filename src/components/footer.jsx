@@ -256,7 +256,7 @@ const footer = () => {
         Developed by SAD Developers
       </div>
     </footer>
-  );
+  )
 };
 
 export default footer;
