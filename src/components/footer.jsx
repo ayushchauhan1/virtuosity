@@ -63,7 +63,7 @@ const footer = () => {
                 </div>
               </div>
               <div className="col-md-5">
-                <label className="text-capitalize mb-3 font-weight-bold th-header">
+                <label className="text-uppercase mb-3 font-weight-bold th-header th-green">
                   Feel Free to Contact Us
                 </label>
                 <div>
@@ -251,9 +251,10 @@ const footer = () => {
             </div>
           </div>
         </MyMobile>
-      </div>
-      <div className="branding text-center p-2">
-        Developed by SAD Developers
+        <hr />
+        <div className="text-center pb-3 th-bold">
+          Developed by: SAD Developers
+        </div>
       </div>
     </footer>
   );
