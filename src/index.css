@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
 body {
   margin: 0;
-  /* font-family: 'Lato', sans-serif;
-   */
    font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,14 +8,14 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /* BUTTON */
 .th-btn-primary {
   color: #ffffff;
-  background: #F0A500;
+  background: #f0a500;
   border-radius: 0.25rem;
   border: none;
 }
@@ -25,14 +23,14 @@ code {
 .th-btn-primary-gradient {
   color: #ffffff;
   /* background: linear-gradient(280.54deg, #F0A500 0%, #313f74 100%); */
-  background: #F0A500;
+  background: #f0a500;
   border-radius: 0.25rem;
   border: none;
 }
 
 .th-btn-primary-gradient:hover {
   /* background: linear-gradient(190deg, #F0A500 0%, #313f74 100%); */
-  background: #F0A500;
+  background: #f0a500;
 }
 .th-btn-secondary {
   color: #ffffff;
@@ -41,10 +39,10 @@ code {
   border: none;
 }
 .th-btn-primary-outline {
-  color: #F0A500;
+  color: #f0a500;
   background: #ffffff;
   border-radius: 0.25rem;
-  border: 1px solid #F0A500;
+  border: 1px solid #f0a500;
   transition-duration: 150px;
 }
 
@@ -54,7 +52,7 @@ code {
 }
 
 .th-btn-white {
-  color: #F0A500;
+  color: #f0a500;
   background: #ffffff;
   border-radius: 0.25rem;
   border: 1px solid #ffffff;
@@ -69,7 +67,7 @@ code {
 .th-btn-primary-on {
   /* color: #ffffff; */
   /* background: linear-gradient(280.54deg, #F0A500 0%, #313f74 100%); */
-  color: #F0A500;
+  color: #f0a500;
   background: #ffffff;
   border-radius: 0.25rem;
   border: none;
@@ -83,7 +81,7 @@ code {
 }
 
 .th-btn-primary-ghost {
-  color: #F0A500;
+  color: #f0a500;
   background: none;
   border: none;
   /* border: 1px solid #ffffff; */
@@ -116,8 +114,8 @@ code {
   outline: none;
 }
 
-.bg-primary{
-  background-color: #F0A500 !important;
+.bg-primary {
+  background-color: #f0a500 !important;
 }
 
 /* Header */
@@ -167,7 +165,7 @@ code {
   display: none;
   position: absolute;
   top: 45px;
-  background-color: #CF7500;
+  background-color: #cf7500;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -181,7 +179,7 @@ code {
 }
 
 .th-header-dropdown-content a:hover {
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   color: #fff;
 }
 
@@ -189,13 +187,12 @@ code {
   display: block;
 }
 
-
 .th-header-dropdown-content-submenu {
   display: none;
   position: relative;
   top: 45px;
   right: 100px;
-  background-color: #CF7500;
+  background-color: #cf7500;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 100;
@@ -217,6 +214,7 @@ code {
   display: block;
 }
 
+
 .th-16 {
   font-size: 16px;
 }
@@ -228,46 +226,40 @@ code {
 .header{
   width: 100%;
   height: 60px;
-  background-color: #F0A500;
+  background-color: #f0a500;
   /* display: flex; */
   flex-wrap: nowrap;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .logo {
-  padding: 6px;
+  padding: 5px;
   width: 200px;
-  margin-top: 10px;
 
 }
-.Nav-Home{
+.Nav-Home {
   margin: 15px;
   margin-left: 300px;
 }
-.Nav-about{
+.Nav-about {
   margin: 15px;
   margin-left: 100px;
- 
-
-}.Nav-ourboard{
-  margin: 15px;
-  margin-left: 100px;
-
 }
-.Nav-services{
+.Nav-ourboard {
   margin: 15px;
- 
   margin-left: 100px;
-
 }
-.Nav-contact{
+.Nav-services {
   margin: 15px;
 
   margin-left: 100px;
-
 }
-.middle
-{
-    position: relative;
+.Nav-contact {
+  margin: 15px;
+
+  margin-left: 100px;
+}
+.middle {
+  position: relative;
 }
 
 .middle:before {
@@ -277,22 +269,21 @@ code {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
-  color: #1A1C20;
+  color: #1a1c20;
 }
 .middle:hover:before {
   visibility: visible;
   transform: scaleX(1);
-  color: #1A1C20;
+  color: #1a1c20;
 }
 
-
-.block1{
+.block1 {
   height: 650px;
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   width: 100%;
   box-shadow: -8px 8px 8px 0 rgba(0, 0, 0, 0.5);
 }
@@ -301,235 +292,227 @@ code {
   width: 350px;
   height: 200px;
 }
-.block3{
-  background-color: #1A1C20;
+.block3 {
+  background-color: #1a1c20;
   height: 400px;
   width: 100%;
 }
 
-
 .services:hover {
-  color:#CF7500;
+  color: #cf7500;
 }
-
 
 .block4:before {
-  content: '';
+  content: "";
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  border-radius:5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
   background: #545558;
-  transition: .5s;
-  transform: scale(.9);
+  transition: 0.5s;
+  transform: scale(0.9);
   z-index: -1;
 }
-.block4:hover{
-  
+.block4:hover {
   color: #b36500;
   box-shadow: 0 0 30px #545558;
   text-shadow: 0 0 0px #d35400;
-
 }
 
 /* */
 @media screen and (max-width: 1920px) {
-  .logo2{
-   padding-top: 250px;
-  padding-left: 85px;
-   height: 650px;
+  .logo2 {
+    padding-top: 250px;
+    padding-left: 85px;
+    height: 650px;
   }
-  .block1text{
+  .block1text {
     font-size: 14;
     text-align: justify;
-    color: #CF7500;
+    color: #cf7500;
     padding: 30px 20px 10px;
   }
   .ourservicestext {
     font-size: 50px;
     font-weight: 600;
     padding-top: 50px;
-    color: #CF7500;
+    color: #cf7500;
   }
-  .services{
+  .services {
     font-size: 20px;
   }
-  .block2{
+  .block2 {
     padding-top: 100px;
     padding-left: 50px;
     font-size: large;
   }
-  .serviceImg{
+  .serviceImg {
     padding-top: 100px;
-   
+
     height: 500px;
   }
-  .block3{
-    background-color: #1A1C20;
+  .block3 {
+    background-color: #1a1c20;
     height: 400px;
     width: 100%;
   }
-  .someclientstext{
+  .someclientstext {
     padding-top: 30px;
     font-size: xx-large;
     font-weight: 500;
-    color: #CF7500;
-    text-decoration: #CF7500;
+    color: #cf7500;
+    text-decoration: #cf7500;
     padding-bottom: 30px;
   }
-  .why{
+  .why {
     padding-top: 50px;
     height: 500px;
   }
-  .block4{
-    background-color:#1A1C20 ;
+  .block4 {
+    background-color: #1a1c20;
     height: 450px;
     width: 300px;
     margin-top: 125px;
     border-radius: 40px;
     margin-bottom: 50px;
-    box-shadow: 0px 4px 8px  rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
-  .whyvirtuosityHeading{
+  .whyvirtuosityHeading {
     font-size: xx-large;
     font-weight: 600;
     padding-bottom: 30px;
   }
-  .whyvirtuosityText{
+  .whyvirtuosityText {
     font-size: x-large;
     padding: 100px 50px;
     text-align: justify;
-    color: #CF7500;
-    text-decoration: #CF7500;
+    color: #cf7500;
+    text-decoration: #cf7500;
   }
 }
 
-
 @media screen and (max-width: 1024px) {
-  .logo2{
+  .logo2 {
     padding-top: 200px;
     height: 500px;
     text-align: center;
-   }
-   .block1text{
+  }
+  .block1text {
     font-size: 15px;
     text-align: justify;
-    color: #CF7500;
+    color: #cf7500;
     padding: 30px 20px 10px;
   }
   .ourservicestext {
     font-size: 50px;
     font-weight: 600;
     padding-top: 50px;
-    color: #CF7500;
-
+    color: #cf7500;
   }
-  .services{
+  .services {
     font-size: 15px;
   }
-  .block2{
+  .block2 {
     padding-top: 100px;
     padding-left: 50px;
     font-size: 14px;
     margin-bottom: 50px;
   }
-  .serviceImg{
+  .serviceImg {
     padding-top: 100px;
     height: 350px;
   }
-  .block3{
-    background-color: #1A1C20;
+  .block3 {
+    background-color: #1a1c20;
     height: 400px;
     width: 100%;
   }
-  .someclientstext{
+  .someclientstext {
     padding-top: 30px;
     font-size: x-large;
     font-weight: 500;
-    color: #CF7500;
-    text-decoration: #CF7500;
+    color: #cf7500;
+    text-decoration: #cf7500;
     padding-bottom: 30px;
   }
-  .why{
+  .why {
     padding-top: 70px;
     height: 300px;
   }
-  .block4{
-    background-color:#1A1C20 ;
+  .block4 {
+    background-color: #1a1c20;
     height: 450px;
     width: 300px;
     margin-top: 125px;
     border-radius: 30px;
-    box-shadow: 0px 4px 8px  rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
-  .whyvirtuosityHeading{
+  .whyvirtuosityHeading {
     font-size: xx-large;
     font-weight: 600;
     padding-bottom: 30px;
   }
-  .whyvirtuosityText{
+  .whyvirtuosityText {
     font-size: medium;
     padding: 100px 50px;
     text-align: justify;
-    color: #CF7500;
-    text-decoration: #CF7500;
+    color: #cf7500;
+    text-decoration: #cf7500;
   }
 }
 @media screen and (max-width: 500px) {
-  .logo2{
+  .logo2 {
     padding-top: 100px;
     height: 300px;
     text-align: center;
-   }
+  }
 
-   .block1text {
+  .block1text {
     font-size: 13px;
     text-align: justify;
-    color: #CF7500;
+    color: #cf7500;
     padding: 30px 10px 10px;
   }
   .ourservicestext {
     font-size: 30px;
     font-weight: 600;
     padding-top: 50px;
-    color: #CF7500;
+    color: #cf7500;
   }
-  .services{
+  .services {
     font-size: 16px;
   }
-  .block2{
-  
+  .block2 {
     padding-left: 50px;
     padding-bottom: 30px;
   }
-  .serviceImg{
+  .serviceImg {
     padding-top: 50px;
     height: 300px;
     margin: 0px;
   }
-  .block3{
-    background-color: #1A1C20;
+  .block3 {
+    background-color: #1a1c20;
     height: 350px;
     width: 100%;
   }
-  .someclientstext{
+  .someclientstext {
     padding-top: 15px;
     font-size: x-large;
     font-weight: 500;
-    color: #CF7500;
-    text-decoration: #CF7500;
+    color: #cf7500;
+    text-decoration: #cf7500;
     padding-bottom: 20px;
   }
-  .why{
+  .why {
     padding-top: 20px;
     height: 250px;
     padding-bottom: 50px;
   }
-  .block4{
-  
-    background-color:#1A1C20 ;
+  .block4 {
+    background-color: #1a1c20;
     height: 250px;
     width: 100%;
     margin-top: 5px;
@@ -537,14 +520,14 @@ code {
     padding-top: 50px;
 
     margin-bottom: 5px;
-    box-shadow: 0px 4px 8px  rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
-  .whyvirtuosityHeading{
+  .whyvirtuosityHeading {
     font-size: x-large;
     font-weight: 500;
     padding-bottom: 10px;
   }
-  .whyvirtuosityText{
+  .whyvirtuosityText {
     font-size: medium;
     padding-left: 5px;
     padding-right: 5px;
@@ -552,37 +535,39 @@ code {
     padding-bottom: 5px;
 
     text-align: justify;
-    color: #CF7500;
-    text-decoration: #CF7500;
+    color: #cf7500;
+    text-decoration: #cf7500;
   }
   .carousel-control-prev,
-.carousel-control-next{
-      bottom:-85%;
+  .carousel-control-next {
+    bottom: -85%;
+  }
 }
-  
-}
-/******************************************* OUR BOARD PAGE ********************************************/ 
+/******************************************* OUR BOARD PAGE ********************************************/
 
-#ob{
-  font-size: 50px;
- 
+.ob {
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-weight: 550;
 }
 
-#obcol{
+.obcol {
   text-align: center;
   font-family: Lato;
-  Color: white;
-  padding-top: 40px;
+  color: #5a3629;
+  padding-top: 30px;
   padding-bottom: 20px;
-  font-weight: 550;
-  font-size: xx-large;
-  
+  border-bottom: 0px;
 }
-.upper{
-  background-color: #1a1c20da;
+.upper {
   margin-top: 10px;
+  background-image: linear-gradient(
+    rgb(230, 213, 184),
+    rgba(230, 213, 184, 0.08)
+  );
+  border-bottom: 0px;
 }
-.truncated{
+.truncated {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -590,35 +575,38 @@ code {
   cursor: pointer;
   -webkit-box-orient: vertical;
 }
-.modalhdr{
-  background-color: #F0A500;
+.modalhdr {
+  background-color: #f0a500;
   color: white;
   font-family: Lato;
 }
-.modalbdy{
+.modalbdy {
   font-family: Lato;
-  color: #1A1C20;
+  color: #1a1c20;
   margin: 20px;
   text-align: justify;
 }
-.crdimg{
+.crdimg {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   margin-top: 30px;
 }
-.crdcol{
+.crdcol {
   padding-top: 50px;
-  
 }
 .crd {
   font-family: Lato;
   text-align: justify;
-  background-color: #1a1c20bd;
-  color: white;
+  background-color: #5a3629;
+  color: #e6d5b8;
   padding-top: 10px;
-  
 }
+
+.crdcol :hover {
+  box-shadow: 10px 8px 11px rgba(90, 54, 41, 0.3);
+}
+
 /*--------------------------------------------- Contact Us---------------------------------------------*/
 .title-1{
   color: #CF7500;
@@ -869,3 +857,4 @@ input{
     background: #555;
   }
 }
+

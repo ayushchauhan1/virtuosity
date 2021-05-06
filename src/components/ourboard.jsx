@@ -83,8 +83,8 @@ const Ourboard = () => {
     <div>
       <div class="container py-5">
         <div className="row upper">
-          <div className="col-md" id="obcol">
-            <p id="ob">OUR BOARD</p>
+          <div className="col-md obcol">
+            <p className="ob">OUR BOARD</p>
           </div>
         </div>
 
