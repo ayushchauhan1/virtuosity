@@ -7,6 +7,7 @@ import Services from "./components/services";
 import Contacts from "./components/contactus";
 import Footer from "./components/footer";
 import OurClients from "./components/ourclients";
+import Business from './components/Business Setup Advisory'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
           <Route exact={true} path="/contactus" render={() => <Contacts />} />
           <Route exact={true} path="/services" render={() => <Services />} />
           <Route exact={true} path="/ourboard" render={() => <Ourboard />} />
+          <Route exact={true} path="/business_setup_advisory" render={() => <Business />} />
           <Route
             exact={true}
             path="/ourclients"
-            render={() => <OurClients />}
+              render={() => <OurClients />}
           />
         </Switch>
         <Footer />

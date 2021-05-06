@@ -69,6 +69,7 @@ class Header extends Component {
                           <Link to="/">Emerging Laws</Link>
                           <Link to="/">Direct Tax</Link>
                           <Link to="/">Goods and Serivice Tax</Link>
+                          <Link to="/business_setup_advisory">Business Setup Advisory</Link>
                         </div>
                       </div>
                       <Link

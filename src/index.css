@@ -730,3 +730,45 @@ text-decoration: none;
     -webkit-transform: scale(1.25);
   }
 /*---------------------------------------Footer CSS ends---------------------------------------*/
+/*------------------------------------Business Setup Advisory------------------------------------*/
+.bsa{
+  font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+letter-spacing: 0.07em;
+
+color: #CF7500;
+}
+.vertical-rule{
+  border: 1px solid #CF7500;
+transform: rotate(90deg);
+width: 500px;
+background-color: #CF7500;
+}
+.content-l{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.07em;
+
+color: #000000;
+}
+.title-bsa{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.07em;
+
+color: #CF7500;
+}
+.vl {
+  border-left: 3px solid #CF7500;
+  height: 100%;
+  top: 2px;
+  position: relative;
+}
