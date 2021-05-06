@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif;
+   */
+   font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -634,7 +637,7 @@ margin-top: 40px;
 
 /*-------------------------------------------------Footer-------------------------------------------------*/
 .foot{
-  background-color: #C4C4C4;
+  background-color: #F6EEE2;
   margin-top: 20px;
   font-family: Lato;
 
@@ -673,8 +676,8 @@ text-decoration: none;
   margin-top: 0px;
   height: auto;
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-  filter: grayscale(100%); /* IE5+ */
-  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all .5s ease-in-out;  
 }
 .phone-img:hover{
@@ -731,14 +734,23 @@ text-decoration: none;
 }
 .th-phone {
   font-size: 18px;
-  color: #636363;
+  color: #263a96;
+  font-weight: bold;
+}
+.th-green {
+  color: #51aa1b;
+}
+
+.th-mail {
+  font-size: 18px;
+  color: #807873;
   font-weight: bold;
 }
 
 .social {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
     filter: grayscale(100%); /* IE5+ */
-    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .5s ease-in-out;  
   }
 
