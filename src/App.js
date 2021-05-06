@@ -9,6 +9,10 @@ import Footer from "./components/footer";
 import OurClients from "./components/ourclients";
 import Business from "./components/Business Setup Advisory";
 import ScrollToTop from "./components/ScrollToTop/index";
+import IndirectTax from "./components/indirect-tax";
+import Noncore from "./components/noncore";
+import DirectTax from "./components/directtax";
+import LitigationSupport from "./components/LitigationSupport";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTopI from "./MyHelpComponents/ScrollToTop";
 function App() {
@@ -23,6 +27,10 @@ function App() {
             <Route exact={true} path="/contactus" render={() => <Contacts />} />
             <Route exact={true} path="/services" render={() => <Services />} />
             <Route exact={true} path="/ourboard" render={() => <Ourboard />} />
+            <Route exact={true} path="/indirect_tax" render={() => <IndirectTax />} />
+            <Route exact={true} path="/non_core_process_outsourching" render={() => <Noncore />} />
+            <Route exact={true} path="/direct_tax" render={() => <DirectTax />} />
+            <Route exact={true} path="/litigation_support" render={() => <LitigationSupport />} />
             <Route
               exact={true}
               path="/business_setup_advisory"
