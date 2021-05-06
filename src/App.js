@@ -8,8 +8,9 @@ import Contacts from "./components/contactus";
 import Footer from "./components/footer";
 import OurClients from "./components/ourclients";
 import Business from './components/Business Setup Advisory'
+import ScrollToTop from "./components/ScrollToTop/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import ScrollToTopI from "./MyHelpComponents/ScrollToTop";
 function App() {
   return (
     <div className="App">

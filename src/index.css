@@ -670,7 +670,8 @@ text-decoration: none;
 }
 .phone-img
 {
-  margin-top: 30px;
+  margin-top: 0px;
+  height: auto;
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: grayscale(100%); /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -696,9 +697,9 @@ text-decoration: none;
   margin-left: 3px;
   margin-top: 32px;
 }
-.connection{
+/* .connection{
   margin-top: 80px;
-}
+} */
 .branding{
   background: rgba(196, 196, 196, 0.6);
   font-family: Lato;
@@ -717,6 +718,23 @@ text-decoration: none;
 .phone-img:hover{
   transform: scale(1.25);
 }
+.th-header {
+  font-size: 18px !important;
+}
+.th-list {
+  list-style-type: none !important;
+}
+.list-item {
+  color: #636363 !important;  
+  font-size: 16px;
+  font-weight: bold;
+}
+.th-phone {
+  font-size: 18px;
+  color: #636363;
+  font-weight: bold;
+}
+
 .social {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
     filter: grayscale(100%); /* IE5+ */
@@ -771,4 +789,71 @@ color: #CF7500;
   height: 100%;
   top: 2px;
   position: relative;
+}
+
+  /*---------------------------------------Footer CSS ends---------------------------------------*/
+
+
+  /*---------------------------------------Contact Us--------------------------------------------*/
+ .block5{
+   height: 500px;
+   background-color: #1A1C20;
+   width: 100%;
+ }
+ .contactHeading{
+   padding-top: 100px;
+   padding-left: 100px;
+   font-weight:bold;
+   font-size: xx-large;
+ }
+ .contactHeading2{
+  padding-left: 100px;
+  font-weight:700;
+  font-size: large;
+}
+.iput{
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-top: 20px;
+
+}
+.form-control:focus {
+  border-color: #4b4b4b;
+  box-shadow: 0 0 0 0.2rem rgba(63, 63, 62, 0.25);
+} 
+
+input{
+  margin-top: 15px;
+}
+
+.butt {
+  width: 120px;
+ align-content: center;
+ margin-top: 40px;
+ margin-left: 270px;
+
+
+/*---------------------------------------Footer CSS ends---------------------------------------*/
+
+
+/* Scroll bar*/
+@media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
