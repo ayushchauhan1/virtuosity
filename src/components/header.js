@@ -16,11 +16,11 @@ class Header extends Component {
       <>
         {/* Desktop Header */}
         <MyDesktop>
-          <div className="header">
-            <div className="d-flex align-items-center justify-content-around">
-              <div className="my-auto">
+          <div className="header fixed-top">
+            <div className="d-flex justify-content-around">
+              <div className="">
                 <Link to="/">
-                  <img className="logo" src={logo}></img>
+                  <img className="logo my-auto" src={logo}></img>
                 </Link>
               </div>
               <div className="row">
@@ -29,7 +29,7 @@ class Header extends Component {
                     <div className="row">
                       <Link className="mt-3 th-link mr-3" to="/">
                         <div
-                          className={"px-3 th-16 pb-2 middle"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           HOME
@@ -37,7 +37,7 @@ class Header extends Component {
                       </Link>
                       <Link className="mt-3 th-link  mr-3" to="/aboutus">
                         <div
-                          className={"px-3 th-16 pb-2 middle"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           ABOUT US
@@ -45,14 +45,22 @@ class Header extends Component {
                       </Link>
                       <Link className="mt-3 th-link mr-3" to="/ourboard">
                         <div
-                          className={"px-3 th-16 pb-2 middle"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           OUR BOARD
                         </div>
                       </Link>
+                      <Link className="mt-3 th-link mr-3" to="/ourclients">
+                        <div
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
+                          style={{ textDecoration: "none", color: "#1A1C20" }}
+                        >
+                          OUR CLIENTS
+                        </div>
+                      </Link>
                       <div className="th-header-dropdown mt-3 mr-3">
-                        <div className={"px-3 th-16 "}>SERVICES</div>
+                        <div className={"mx-3 th-16 th-bold"}>SERVICES</div>
                         <div className="th-header-dropdown-content th-16 ">
                           <Link to="/">Transfer Pricing Service Offerings</Link>
                           <Link to="/">International Taxation</Link>
@@ -61,11 +69,15 @@ class Header extends Component {
                           <Link to="/">Emerging Laws</Link>
                           <Link to="/">Direct Tax</Link>
                           <Link to="/">Goods and Serivice Tax</Link>
+                          <Link to="/business_setup_advisory">Business Setup Advisory</Link>
                         </div>
                       </div>
-                      <Link className="mt-3 th-link mr-3" to="/contactus">
+                      <Link
+                        className="mt-3 th-link mr-3 th-bold"
+                        to="/contactus"
+                      >
                         <div
-                          className={"px-3 th-16 pb-2 middle"}
+                          className={"mx-3 th-16 pb-2 middle"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           CONTACT US
@@ -80,7 +92,7 @@ class Header extends Component {
         </MyDesktop>
         {/* Mobile Header */}
         <MyMobile>
-          <div className="container py-2 bg-primary shadow-sm">
+          <div className="container py-2 bg-primary shadow-sm fixed-top">
             <div className="row py-1">
               <div className="col-12">
                 <div className="d-flex justify-content-between align-items-center">
@@ -94,7 +106,7 @@ class Header extends Component {
                   </button>
 
                   <div className="mx-auto">
-                    <Link to="/home">
+                    <Link to="/">
                       <img
                         alt="Virtuosity Logo"
                         className="my-auto"
@@ -140,7 +152,7 @@ class Header extends Component {
             <div className="my-3">
               <Link
                 className="th-16 w-100 th-link"
-                to="/"
+                to="/aboutus"
                 onClick={() =>
                   this.setState({ drawerOpen: !this.state.drawerOpen })
                 }
@@ -151,7 +163,7 @@ class Header extends Component {
             <div className="my-3">
               <Link
                 className="th-16 w-100 th-link"
-                to="/"
+                to="/ourboard"
                 onClick={() =>
                   this.setState({ drawerOpen: !this.state.drawerOpen })
                 }
@@ -159,12 +171,23 @@ class Header extends Component {
                 Our Board
               </Link>
             </div>
+            <div className="my-3">
+              <Link
+                className="th-16 w-100 th-link"
+                to="/ourclients"
+                onClick={() =>
+                  this.setState({ drawerOpen: !this.state.drawerOpen })
+                }
+              >
+                Our Clients
+              </Link>
+            </div>
             <div
               className="my-3"
               onClick={() => this.setState({ showlink: !this.state.showlink })}
             >
               <div className="row my-auto mx-auto th-16 w-100 th-link">
-                <div className="col-9 my-auto px-0">Useful Links</div>
+                <div className="col-9 my-auto px-0">Services</div>
                 <div className="col-2 text-right">
                   {this.state.showlink ? (
                     <Fragment>
@@ -179,7 +202,7 @@ class Header extends Component {
             {this.state.showlink && (
               <Fragment>
                 <div className="my-2  p-1 ml-2">
-                  <Link to="/contact" className="th-link">
+                  <Link to="/" className="th-link">
                     <span className="th-grey">
                       Transfer Pricing Service Offerings
                     </span>
@@ -188,7 +211,15 @@ class Header extends Component {
               </Fragment>
             )}
             <div className="my-3">
-              <p className="th-16 w-100 th-link">Contact Us</p>
+              <Link
+                className="th-16 w-100 th-link"
+                to="/contactus"
+                onClick={() =>
+                  this.setState({ drawerOpen: !this.state.drawerOpen })
+                }
+              >
+                Contact Us
+              </Link>
             </div>
             <hr className="mt-5" />
             <p className="th-grey th-12 text-center">

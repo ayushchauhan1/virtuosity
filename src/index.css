@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+   font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -214,7 +214,16 @@ code {
   display: block;
 }
 
-.header {
+
+.th-16 {
+  font-size: 16px;
+}
+
+.th-bold {
+  font-weight: 600;
+}
+
+.header{
   width: 100%;
   height: 60px;
   background-color: #f0a500;
@@ -225,6 +234,7 @@ code {
 .logo {
   padding: 5px;
   width: 200px;
+
 }
 .Nav-Home {
   margin: 15px;
@@ -597,22 +607,254 @@ code {
   box-shadow: 10px 8px 11px rgba(90, 54, 41, 0.3);
 }
 
-/* Contact Us*/
-.title-1 {
-  color: #cf7500;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.07em;
-  margin-top: 40px;
+/*--------------------------------------------- Contact Us---------------------------------------------*/
+.title-1{
+  color: #CF7500;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.07em;
+margin-top: 40px;
 }
-.brands {
+.brands{
   margin: 12px;
   padding: 30px;
 }
+/*---------------------------------------------Contact Us End---------------------------------------------*/
 
-/*********************************ABOUT US******************************/
+/*-------------------------------------------------Footer-------------------------------------------------*/
+.foot{
+  background-color: #F6EEE2;
+  margin-top: 20px;
+  font-family: Lato;
 
+}
+.about{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.07em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.num{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.07em;
+color: #000000;
+margin-top: 36px;
+}
+.f-links{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.07em;
+color: #000000;
+text-decoration: none;
+}
+.phone-img
+{
+  margin-top: 0px;
+  height: auto;
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .5s ease-in-out;  
+}
+.phone-img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.25);
+}
+.tele{
+  margin-left: 5px;
+}
+.tele-num{
+  margin-top: 33px;
+  margin-left: 4px;
+}
+.mail{
+  margin-bottom: 20px;
+  margin-left: 3px;
+}
+.mail-id{
+  margin-left: 3px;
+  margin-top: 32px;
+}
+/* .connection{
+  margin-top: 80px;
+} */
+.branding{
+  background: rgba(196, 196, 196, 0.6);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.07em;
+  
+  color: #000000;
+}
+.f-links:hover{
+  text-decoration: none;
+  color: #000000;
+}
+.phone-img:hover{
+  transform: scale(1.25);
+}
+.th-header {
+  font-size: 18px !important;
+}
+.th-list {
+  list-style-type: none !important;
+}
+.list-item {
+  color: #636363 !important;  
+  font-size: 16px;
+  font-weight: bold;
+}
+.th-phone {
+  font-size: 18px;
+  color: #263a96;
+  font-weight: bold;
+}
+.th-green {
+  color: #51aa1b;
+}
+
+.th-mail {
+  font-size: 18px;
+  color: #807873;
+  font-weight: bold;
+}
+
+.social {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: grayscale(100%); /* IE5+ */
+    -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .5s ease-in-out;  
+  }
+
+  .social:hover:hover {
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.25);
+  }
+/*---------------------------------------Footer CSS ends---------------------------------------*/
+/*------------------------------------Business Setup Advisory------------------------------------*/
+.bsa{
+  font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+letter-spacing: 0.07em;
+
+color: #CF7500;
+}
+.vertical-rule{
+  border: 1px solid #CF7500;
+transform: rotate(90deg);
+width: 500px;
+background-color: #CF7500;
+}
+.content-l{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.07em;
+
+color: #000000;
+}
+.title-bsa{
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.07em;
+
+color: #CF7500;
+}
+.vl {
+  border-left: 3px solid #CF7500;
+  height: 100%;
+  top: 2px;
+  position: relative;
+}
+
+  /*---------------------------------------Footer CSS ends---------------------------------------*/
+
+
+  /*---------------------------------------Contact Us--------------------------------------------*/
+ .block5{
+   height: 500px;
+   background-color: #1A1C20;
+   width: 100%;
+ }
+ .contactHeading{
+   padding-top: 100px;
+   padding-left: 100px;
+   font-weight:bold;
+   font-size: xx-large;
+ }
+ .contactHeading2{
+  padding-left: 100px;
+  font-weight:700;
+  font-size: large;
+}
+.iput{
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-top: 20px;
+
+}
+.form-control:focus {
+  border-color: #4b4b4b;
+  box-shadow: 0 0 0 0.2rem rgba(63, 63, 62, 0.25);
+} 
+
+input{
+  margin-top: 15px;
+}
+
+.butt {
+  width: 120px;
+ align-content: center;
+ margin-top: 40px;
+ margin-left: 270px;
+}
+
+/*---------------------------------------Footer CSS ends---------------------------------------*/
+
+
+/* Scroll bar*/
+@media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
 

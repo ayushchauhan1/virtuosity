@@ -4,6 +4,8 @@ import second from "../assets/2nd.svg";
 import third from "../assets/3rd.svg";
 import fourth from "../assets/expert.svg";
 
+
+
 const aboutus = () => {
   return (
     <div>
