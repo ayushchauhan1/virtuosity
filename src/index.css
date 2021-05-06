@@ -859,7 +859,7 @@ input{
 }
 /*---------------------------------------indirect tax---------------------------------------*/
 .cnt{
-  font-family: Lato;
+  /* font-family: Lato; */
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
