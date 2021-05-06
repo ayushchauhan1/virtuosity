@@ -17,8 +17,8 @@ class Header extends Component {
         {/* Desktop Header */}
         <MyDesktop>
           <div className="header fixed-top">
-            <div className="d-flex align-items-center justify-content-around">
-              <div className="my-auto">
+            <div className="d-flex justify-content-around">
+              <div className="">
                 <Link to="/">
                   <img className="logo my-auto" src={logo}></img>
                 </Link>
@@ -29,7 +29,7 @@ class Header extends Component {
                     <div className="row">
                       <Link className="mt-3 th-link mr-3" to="/">
                         <div
-                          className={"px-3 th-16 pb-2 middle th-bold"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           HOME
@@ -37,7 +37,7 @@ class Header extends Component {
                       </Link>
                       <Link className="mt-3 th-link  mr-3" to="/aboutus">
                         <div
-                          className={"px-3 th-16 pb-2 middle th-bold"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           ABOUT US
@@ -45,7 +45,7 @@ class Header extends Component {
                       </Link>
                       <Link className="mt-3 th-link mr-3" to="/ourboard">
                         <div
-                          className={"px-3 th-16 pb-2 middle th-bold"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           OUR BOARD
@@ -53,14 +53,14 @@ class Header extends Component {
                       </Link>
                       <Link className="mt-3 th-link mr-3" to="/ourclients">
                         <div
-                          className={"px-3 th-16 pb-2 middle th-bold"}
+                          className={"mx-3 th-16 pb-2 middle th-bold"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           OUR CLIENTS
                         </div>
                       </Link>
                       <div className="th-header-dropdown mt-3 mr-3">
-                        <div className={"px-3 th-16 th-bold"}>SERVICES</div>
+                        <div className={"mx-3 th-16 th-bold"}>SERVICES</div>
                         <div className="th-header-dropdown-content th-16 ">
                           <Link to="/">Transfer Pricing Service Offerings</Link>
                           <Link to="/">International Taxation</Link>
@@ -76,7 +76,7 @@ class Header extends Component {
                         to="/contactus"
                       >
                         <div
-                          className={"px-3 th-16 pb-2 middle"}
+                          className={"mx-3 th-16 pb-2 middle"}
                           style={{ textDecoration: "none", color: "#1A1C20" }}
                         >
                           CONTACT US
