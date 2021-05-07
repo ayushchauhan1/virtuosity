@@ -8,7 +8,7 @@ import ireda from "../assets/ireda1.png";
 import jmc from "../assets/jmc1.png";
 import why from "../assets/whyvirtuosity.png";
 import { Helmet } from "react-helmet";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -55,15 +55,24 @@ const Home = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12  block2">
             <ul>
-              <li className="services">Transfer Pricing Service Offerings</li>
-              <li className="services">Indirect Taxes</li>
-              <li className="services">Business Setup Advisory</li>
-              <li className="services">Litigation Support</li>
-              <li className="services">Goods and Serivice Tax</li>
-              <li className="services">Emerging Laws</li>
-              <li className="services">Corporate Financial Advisory </li>
-              <li className="services">Non-Core Process Outsourcing</li>
-              <li className="services">International Taxation</li>
+              <Link to="/business_setup_advisory" className="th-link">
+                <li className="services">Business Setup Advisory</li>
+              </Link>
+              <Link to="/indirect_tax" className="th-link">
+                <li className="services">Indirect Taxes</li>
+              </Link>
+              <Link to="/non_core_process_outsourching" className="th-link">
+                <li className="services">Non-Core Process Outsourcing</li>
+              </Link>
+              <Link to="/direct_tax" className="th-link">
+                <li className="services">Direct Tax</li>
+              </Link>
+              <Link to="/litigation_support" className="th-link">
+                <li className="services">Litigation Support</li>
+              </Link>
+              <Link to="/gst" className="th-link">
+                <li className="services">Goods and Serivice Tax</li>
+              </Link>
             </ul>
           </div>
         </div>
