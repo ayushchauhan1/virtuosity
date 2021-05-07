@@ -14,6 +14,7 @@ import Noncore from "./components/noncore";
 import DirectTax from "./components/directtax";
 import LitigationSupport from "./components/LitigationSupport";
 import GST from "./components/gst";
+import CFA from "./components/corporatefinancialadvisory";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTopI from "./MyHelpComponents/ScrollToTop";
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route exact={true} path="/direct_tax" render={() => <DirectTax />} />
             <Route exact={true} path="/litigation_support" render={() => <LitigationSupport />} />
             <Route exact={true} path="/gst" render={() => <GST />} />
+            <Route exact={true} path="/corporate_financial_advisory" render={() => <CFA />} />
             <Route
               exact={true}
               path="/business_setup_advisory"
