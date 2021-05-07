@@ -51,7 +51,7 @@ class Contacts extends Component {
         )
         .then((res) => {
           this.setState({ loading: false });
-          openSnackbar("Thanks for Contacting");
+          openSnackbar("Thanks for Contacting Us");
         })
         .catch((err) => {
           this.setState({ loading: false });
@@ -96,13 +96,13 @@ class Contacts extends Component {
               Submit
             </button>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 map">
+          <div className="col-lg-6 col-md-6 col-sm-12 map text-center">
             {/* <MapContainer></MapContainer> */}
             <MapGL
               {...this.state.viewport}
               height="100%"
               width="90%"
-              className="py-3"
+              className="py-3 text-center"
               mapStyle="mapbox://styles/mapbox/streets-v9"
               onViewportChange={(viewport) => this.setState({ viewport })}
               mapboxApiAccessToken={MAPBOX_TOKEN}
