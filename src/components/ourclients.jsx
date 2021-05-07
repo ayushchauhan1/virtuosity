@@ -11,10 +11,12 @@ import mcx from "../assets/mcx.png";
 import khfoges from "../assets/khfoges.png";
 import triveni from "../assets/triveni.png";
 import Sol from "../assets/Solicitors.png";
+import { Helmet } from "react-helmet";
 
 const ourclients = () => {
   return (
     <div className="py-5">
+      <Helmet title="Our Clients" />
       <div className="text-center title-1">SOME OF OUR SATISFIED CLIENTS</div>
       <div className="container">
         <div className="row my-5 align-items-center">

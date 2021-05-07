@@ -10,6 +10,7 @@ import gaur from "../assets/gaurav-chopra.png";
 import vima from "../assets/vimal.png";
 import prat from "../assets/prateek.png";
 import shee from "../assets/sheenu.png";
+import { Helmet } from "react-helmet";
 var arr = [
   {
     image: Yogi,
@@ -81,6 +82,7 @@ const Ourboard = () => {
   };
   return (
     <div>
+      <Helmet title="Our Board" />
       <div class="container py-5">
         <div className="row upper">
           <div className="col-md obcol">

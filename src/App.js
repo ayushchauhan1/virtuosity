@@ -16,9 +16,15 @@ import LitigationSupport from "./components/LitigationSupport";
 import GST from "./components/gst";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTopI from "./MyHelpComponents/ScrollToTop";
+import { Helmet } from "react-helmet";
+
 function App() {
   return (
     <div className="App">
+      <Helmet
+        titleTemplate="Virtuosity Financial Services - %s"
+        title="Title"
+      />
       <Router>
         <ScrollToTopI>
           <Header />
@@ -28,10 +34,26 @@ function App() {
             <Route exact={true} path="/contactus" render={() => <Contacts />} />
             <Route exact={true} path="/services" render={() => <Services />} />
             <Route exact={true} path="/ourboard" render={() => <Ourboard />} />
-            <Route exact={true} path="/indirect_tax" render={() => <IndirectTax />} />
-            <Route exact={true} path="/non_core_process_outsourching" render={() => <Noncore />} />
-            <Route exact={true} path="/direct_tax" render={() => <DirectTax />} />
-            <Route exact={true} path="/litigation_support" render={() => <LitigationSupport />} />
+            <Route
+              exact={true}
+              path="/indirect_tax"
+              render={() => <IndirectTax />}
+            />
+            <Route
+              exact={true}
+              path="/non_core_process_outsourching"
+              render={() => <Noncore />}
+            />
+            <Route
+              exact={true}
+              path="/direct_tax"
+              render={() => <DirectTax />}
+            />
+            <Route
+              exact={true}
+              path="/litigation_support"
+              render={() => <LitigationSupport />}
+            />
             <Route exact={true} path="/gst" render={() => <GST />} />
             <Route
               exact={true}

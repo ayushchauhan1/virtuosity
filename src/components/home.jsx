@@ -7,10 +7,12 @@ import ultratech from "../assets/ultratech.png";
 import ireda from "../assets/ireda.png";
 import jmc from "../assets/jmc.png";
 import why from "../assets/whyvirtuosity.png";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div>
+      <Helmet title="Home" />
       <div className="container-fluid py-5">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12  logo2">
