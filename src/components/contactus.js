@@ -5,8 +5,13 @@ import MapContainer from "./map";
 import MapGL, { Marker } from "react-map-gl";
 import Logo from "../assets/marker.png";
 import { Helmet } from "react-helmet";
+import "mapbox-gl/dist/mapbox-gl.css";
+import mapboxgl from "mapbox-gl";
+
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 const MAPBOX_TOKEN =
-  "pk.eyJ1IjoiZGh3YWpndXB0YSIsImEiOiJja29jeDEzbngzZWozMnFscG56Z3R1Yjd4In0.lN-Fv7XpL6p3noEvggH1QQ"; // Set your mapbox token here
+  "pk.eyJ1IjoiZGh3YWpndXB0YSIsImEiOiJja29lODVtejcwMjR6MnBvZzdpMGtpMmc4In0.Vzya1EbkMYfUpTiiIUGEtQ"; // Set your mapbox token here
 
 class Contacts extends Component {
   state = {
