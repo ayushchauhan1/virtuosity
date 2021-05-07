@@ -1,11 +1,11 @@
 import React from "react";
 import logo2 from "../assets/logo2.png";
 import Services from "../assets/services.png";
-import bikanervala from "../assets/bikanervala.png";
-import ansal from "../assets/ansal.png";
-import ultratech from "../assets/ultratech.png";
-import ireda from "../assets/ireda.png";
-import jmc from "../assets/jmc.png";
+import bikanervala from "../assets/bikanervala1.png";
+import ansal from "../assets/ansal1.png";
+import ultratech from "../assets/ultratech1.png";
+import ireda from "../assets/ireda1.png";
+import jmc from "../assets/jmc1.png";
 import why from "../assets/whyvirtuosity.png";
 import { Helmet } from "react-helmet";
 
