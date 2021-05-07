@@ -542,6 +542,9 @@ code {
   .carousel-control-next {
     bottom: -85%;
   }
+  .bsa{
+    font-size: 32px !important;
+  }
 }
 /******************************************* OUR BOARD PAGE ********************************************/
 
@@ -728,6 +731,9 @@ text-decoration: none;
 .th-green {
   color: #51aa1b;
 }
+.th-grey {
+  color: #959595;
+}
 
 .th-mail {
   font-size: 18px;
@@ -868,4 +874,8 @@ text-align: center;
 letter-spacing: 0.07em;
 
 color: #2F2E41;
+}
+
+::selection {
+  background: #F0A500;
 }

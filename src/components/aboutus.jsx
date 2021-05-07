@@ -3,12 +3,12 @@ import first from "../assets/revenue.svg";
 import second from "../assets/2nd.svg";
 import third from "../assets/3rd.svg";
 import fourth from "../assets/expert.svg";
-
-
+import { Helmet } from "react-helmet";
 
 const aboutus = () => {
   return (
     <div>
+      <Helmet title="About Us" />
       <div class="container-fluid">
         <h1 class="text-center mb-3">ABOUT US</h1>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
