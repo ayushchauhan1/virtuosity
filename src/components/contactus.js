@@ -96,11 +96,11 @@ class Contacts extends Component {
               Submit
             </button>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5 w-100">
+          <div className="col-lg-6 col-md-6 col-sm-12 map">
             {/* <MapContainer></MapContainer> */}
             <MapGL
               {...this.state.viewport}
-              height="70vh"
+              height="100%"
               width="90%"
               className="py-3"
               mapStyle="mapbox://styles/mapbox/streets-v9"
