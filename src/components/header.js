@@ -74,6 +74,19 @@ class Header extends Component {
                             Litigation Support
                           </Link>
                           <Link to="/gst">Goods and Service Tax</Link>
+                          <Link to="/corporate_financial_advisory">
+                            Corporate Financial Advisory
+                          </Link>
+                          <Link to="/transfer_pricing_service_offerings">
+                            Transfer Pricing Service Offerings
+                          </Link>
+                          <Link to="/emerging_laws">Emerging Laws</Link>
+                          <Link to="/international_taxation">
+                            International Taxation
+                          </Link>
+                          <Link to="/business_setup_advisory">
+                            Business Setup Advisory
+                          </Link>
                         </div>
                       </div>
                       <Link
@@ -138,8 +151,8 @@ class Header extends Component {
           <div
             className={
               this.state.drawerOpen
-                ? "th-side-drawer open shadow-sm py-5 rounded-right px-3"
-                : "th-side-drawer shadow-sm py-5 rounded-right px-3"
+                ? "th-side-drawer open shadow-sm rounded-right px-3"
+                : "th-side-drawer shadow-sm rounded-right px-3"
             }
           >
             <div className="my-3">
@@ -271,6 +284,65 @@ class Header extends Component {
                     }
                   >
                     <span className="th-grey">GST</span>
+                  </Link>
+                </div>
+                <div className="my-1 p-1 ml-2">
+                  <Link
+                    to="/corporate_financial_advisory"
+                    className="th-link th-bold"
+                    onClick={() =>
+                      this.setState({ drawerOpen: !this.state.drawerOpen })
+                    }
+                  >
+                    <span className="th-grey">
+                      Corporate Financial Advisory
+                    </span>
+                  </Link>
+                </div>
+                <div className="my-1 p-1 ml-2">
+                  <Link
+                    to="/transfer_pricing_service_offerings"
+                    className="th-link th-bold"
+                    onClick={() =>
+                      this.setState({ drawerOpen: !this.state.drawerOpen })
+                    }
+                  >
+                    <span className="th-grey">
+                      Transfer Pricing Service Offerings
+                    </span>
+                  </Link>
+                </div>
+                <div className="my-1 p-1 ml-2">
+                  <Link
+                    to="/emerging_laws"
+                    className="th-link th-bold"
+                    onClick={() =>
+                      this.setState({ drawerOpen: !this.state.drawerOpen })
+                    }
+                  >
+                    <span className="th-grey">Emerging Laws</span>
+                  </Link>
+                </div>
+                <div className="my-1 p-1 ml-2">
+                  <Link
+                    to="/international_taxation"
+                    className="th-link th-bold"
+                    onClick={() =>
+                      this.setState({ drawerOpen: !this.state.drawerOpen })
+                    }
+                  >
+                    <span className="th-grey">International Taxation</span>
+                  </Link>
+                </div>
+                <div className="my-1 p-1 ml-2">
+                  <Link
+                    to="/business_setup_advisory"
+                    className="th-link th-bold"
+                    onClick={() =>
+                      this.setState({ drawerOpen: !this.state.drawerOpen })
+                    }
+                  >
+                    <span className="th-grey">Business Setup Advisory</span>
                   </Link>
                 </div>
               </Fragment>
