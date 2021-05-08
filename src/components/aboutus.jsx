@@ -9,7 +9,7 @@ const aboutus = () => {
   return (
     <div>
       <Helmet title="About Us" />
-      <div class="container-fluid">
+      <div class="container-fluid pt-4">
         <h1 class="text-center mb-3">ABOUT US</h1>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner row w-100 mx-auto">

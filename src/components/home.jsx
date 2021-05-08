@@ -9,15 +9,19 @@ import jmc from "../assets/jmc1.png";
 import why from "../assets/whyvirtuosity.png";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import MyDesktop from "../MyHelpComponents/MyDesktop";
+
 const Home = () => {
   return (
     <div>
       <Helmet title="Home" />
       <div className="container-fluid py-5">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12  logo2">
-            <img src={logo2} height="25%"></img>
-          </div>
+          <MyDesktop>
+            <div className="col-lg-6 col-md-6 col-sm-12  logo2">
+              <img src={logo2} height="25%"></img>
+            </div>
+          </MyDesktop>
           <div className="col-lg-6 col-md-6 col-sm-12 block1">
             <div className="text-center ">
               <h1 style={{ color: "white", paddingTop: "100px" }}>
