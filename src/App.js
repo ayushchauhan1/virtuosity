@@ -59,10 +59,26 @@ function App() {
               render={() => <LitigationSupport />}
             />
             <Route exact={true} path="/gst" render={() => <GST />} />
-            <Route exact={true} path="/corporate_financial_advisory" render={() => <CFA />} />
-            <Route exact={true} path="/transfer_pricing_service_offerings" render={() => <TF />} />
-            <Route exact={true} path="/emerging_laws" render={() => <Emerging />} />
-            <Route exact={true} path="/international_taxation" render={() => <IT />} />
+            <Route
+              exact={true}
+              path="/corporate_financial_advisory"
+              render={() => <CFA />}
+            />
+            <Route
+              exact={true}
+              path="/transfer_pricing_service_offerings"
+              render={() => <TF />}
+            />
+            <Route
+              exact={true}
+              path="/emerging_laws"
+              render={() => <Emerging />}
+            />
+            <Route
+              exact={true}
+              path="/international_taxation"
+              render={() => <IT />}
+            />
             <Route
               exact={true}
               path="/business_setup_advisory"
