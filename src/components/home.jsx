@@ -73,6 +73,24 @@ const Home = () => {
               <Link to="/gst" className="th-link">
                 <li className="services">Goods and Serivice Tax</li>
               </Link>
+              <Link to="/corporate_financial_advisory" className="th-link">
+                <li className="services">Corporate Financial Advisory</li>
+              </Link>
+              <Link
+                to="/transfer_pricing_service_offerings"
+                className="th-link"
+              >
+                <li className="services">Transfer Pricing Service Offerings</li>
+              </Link>
+              <Link to="/emerging_laws" className="th-link">
+                <li className="services">Emerging Laws</li>
+              </Link>
+              <Link to="/international_taxation" className="th-link">
+                <li className="services">International Taxation</li>
+              </Link>
+              <Link to="/business_setup_advisory" className="th-link">
+                <li className="services">Business Setup Advisory</li>
+              </Link>
             </ul>
           </div>
         </div>
