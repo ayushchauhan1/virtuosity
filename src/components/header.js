@@ -62,20 +62,17 @@ class Header extends Component {
                       <div className="th-header-dropdown mt-3 mr-3">
                         <div className={"mx-3 th-16 th-bold"}>SERVICES</div>
                         <div className="th-header-dropdown-content th-16 ">
-                          <Link to="/">Transfer Pricing Service Offerings</Link>
-                          <Link to="/">International Taxation</Link>
-                          <Link to="/">Non-Core Process Outsourcing</Link>
-                          <Link to="/">Corporate Financial Advisory</Link>
-                          <Link to="/">Emerging Laws</Link>
-                          <Link to="/">Direct Tax</Link>
+                          <Link to="/transfer_pricing_service_offerings">Transfer Pricing Service Offerings</Link>
+                          <Link to="/international_taxation">International Taxation</Link>
+                          <Link to="/non_core_process_outsourching">Non-Core Process Outsourcing</Link>
+                          <Link to="/corporate_financial_advisory">Corporate Financial Advisory</Link>
+                          <Link to="/emerging_laws">Emerging Laws</Link>
+                          <Link to="/direct_tax">Direct Tax</Link>
                           <Link to="/">Goods and Serivice Tax</Link>
                           <Link to="/business_setup_advisory">Business Setup Advisory</Link>
                           <Link to="/indirect_tax">Indirect Tax</Link>
-                          <Link to="/non_core_process_outsourching">Non Core Process Outsourching</Link>
-                          <Link to="/direct_tax">Direct Tax</Link>
                           <Link to="/litigation_support">Litigation Support</Link>
                           <Link to="/gst">Goods and Service Tax</Link>
-                          <Link to="/corporate_financial_advisory">Corporate Financial Advisory</Link>
                         </div>
                       </div>
                       <Link
