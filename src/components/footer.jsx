@@ -123,7 +123,7 @@ const footer = () => {
                     </a>
                   </div>
                   <div className="col-4 text-center">
-                    <a href="">
+                    <a href="https://web.whatsapp.com/send?phone=+919999030920&text=Hi!">
                       <img src={whatsapp} alt="" className="social" />
                     </a>
                   </div>
@@ -242,7 +242,7 @@ const footer = () => {
                     </a>
                   </div>
                   <div className=" ">
-                    <a href="">
+                    <a href="https://web.whatsapp.com/send?phone=+919999030920&text=Hi!">
                       <img src={whatsapp} alt="" className="social" />
                     </a>
                   </div>
@@ -257,7 +257,7 @@ const footer = () => {
         </div>
       </div>
     </footer>
-  )
+  );
 };
 
 export default footer;

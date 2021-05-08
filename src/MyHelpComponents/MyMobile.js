@@ -12,7 +12,7 @@ export const MyMobile = (props) => {
     return () => window.removeEventListener("resize", updateSize);
   }, []);
 
-  return <div>{windowSize <= 768 ? props.children : null}</div>;
+  return <div>{windowSize < 768 ? props.children : null}</div>;
 };
 
 export default MyMobile;

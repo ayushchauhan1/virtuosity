@@ -9,6 +9,7 @@
     "axios": "^0.21.1",
     "google-map-react": "^2.1.9",
     "google-maps-react": "^2.0.6",
+    "mapbox-gl": "^2.2.0",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
@@ -20,7 +21,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-simple-snackbar": "^1.1.11",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "worker-loader": "^3.0.8"
   },
   "scripts": {
     "start": "react-scripts start",

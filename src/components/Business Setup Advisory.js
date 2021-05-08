@@ -1,9 +1,12 @@
 import React from "react";
 import bsa from "../assets/bsa.png";
 import MyDesktop from "../MyHelpComponents/MyDesktop";
+import { Helmet } from "react-helmet";
+
 const BSA = () => {
   return (
     <div className="container-fluid pt-4">
+      <Helmet title="Business Setup Advisory" />
       <div className="row my-5">
         <div className="col-12 text-center bsa">Business Setup Advisory</div>
       </div>
