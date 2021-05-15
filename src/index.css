@@ -848,7 +848,6 @@ color: #CF7500;
   height: 600px;
   width: 400px;
   padding-top: 100px;
-  padding-left: 100px;
 }
 }
 @media screen and (max-width: 1024px)
@@ -914,7 +913,6 @@ color: #CF7500;
     height: 400px;
     width: 80%;
     padding-top: 110px;
-    padding-left: 10px;
   }
   
 }
@@ -947,7 +945,6 @@ color: #CF7500;
     height: 300px;
     width: 100%;
     padding-top: 50px;
-    margin-left: 40px;
   }
   
 }

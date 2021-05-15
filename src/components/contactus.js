@@ -1,17 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { withSnackbar } from "react-simple-snackbar";
-import MapContainer from "./map";
-import MapGL, { Marker } from "react-map-gl";
-import Logo from "../assets/marker.png";
 import { Helmet } from "react-helmet";
-import "mapbox-gl/dist/mapbox-gl.css";
-import mapboxgl from "mapbox-gl";
-
-// eslint-disable-next-line import/no-webpack-loader-syntax
-mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
-const MAPBOX_TOKEN =
-  "pk.eyJ1IjoiZGh3YWpndXB0YSIsImEiOiJja29lODVtejcwMjR6MnBvZzdpMGtpMmc4In0.Vzya1EbkMYfUpTiiIUGEtQ"; // Set your mapbox token here
+import MyDesktop from "../MyHelpComponents/MyDesktop";
+import MyMobile from "../MyHelpComponents/MyMobile";
 
 class Contacts extends Component {
   state = {
@@ -96,9 +88,9 @@ class Contacts extends Component {
               Submit
             </button>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 map text-center">
+          <div className="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5 text-center">
             {/* <MapContainer></MapContainer> */}
-            <MapGL
+            {/* <MapGL
               {...this.state.viewport}
               height="100%"
               width="90%"
@@ -115,7 +107,27 @@ class Contacts extends Component {
               >
                 <img src={Logo} width="30%" />
               </Marker>
-            </MapGL>
+            </MapGL> */}
+            <MyDesktop>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14015.86928434274!2d77.361938!3d28.570744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd834fff36fe62a89!2sTossin%20Pizza%20Sector%2050%20Noida%20%7C%20Best%20Pizza%20Restaurant%20in%20Noida!5e0!3m2!1sen!2sin!4v1621078929473!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style={{ border: 0, padding: 0 }}
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </MyDesktop>
+            <MyMobile>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14015.86928434274!2d77.361938!3d28.570744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd834fff36fe62a89!2sTossin%20Pizza%20Sector%2050%20Noida%20%7C%20Best%20Pizza%20Restaurant%20in%20Noida!5e0!3m2!1sen!2sin!4v1621078929473!5m2!1sen!2sin"
+                width="300"
+                height="200"
+                style={{ border: 0 }}
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </MyMobile>
           </div>
         </div>
       </div>
